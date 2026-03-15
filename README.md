@@ -12,16 +12,28 @@ Specifically, the project addresses the following questions:
 - What regions represent the highest need for investment?
 - What type of intervention is required for each climate zones
   
-*3.0* **Data Description**
+*3.0* **Data Description**  
 The dataset contains:
 - Actual Yield (YA)
 - Potential Yield (YP)
 - Stress Index (SI)
 - Climate Zone Classification
-- Data Spans from 2000 to 2010 across 12 regions
+- Data Spans from 2000 to 2010 across 12 regions  
+  
+*3.1* **Dashboard File**  
+  [Click here to naviate my Excel dashboard](Rainfed_Excel_Analysis.xlsx)  
+![Agric_Investment_Data_Analysis](Dashboard.png)  
 
+*3.2* **Skills Used**  
+The following Excel skills were utilised for analysis:  
+-Charts  
+-Formular and Functions  
+-Data Validation  
+-Conditional Formarting  
+  
 *4.0* **Data Metrics Used**  
-The following core indicators were used in this analysis  
+The following core indicators were used in this analysis:  
+
 *4.1* **Yield Trend**  
 Yield trend from Actual Yield shows whether yield is increasing, decreasing or stagnant over time across climate zones, and identify top high and low performing regions.
 
@@ -37,13 +49,13 @@ SI < 1 → Climate stress limits production
 
 *4.4* **Combined insights between Yield Gap and Stress Index**  
 By integrating Yield Gap and Stress Index, each climate zone is classified into production constraint categories:  
-Condition	Interpretation
-High YG + SI >1	Strong  Mangement Constrant
-High YG + SI <1	Climate + Mangement Constrant
-Medium YG + SI >1	Management Improvement Needed
-Medium YG + SI < 1	Moderate Climate Constraint
-Low YG + SI >1	Mainly Climate Constraints
-Low YG + SI < 1	Minor Management Issue
+Condition	Interpretation  
+High YG + SI >1	Strong  Mangement Constrant  
+High YG + SI <1	Climate + Mangement Constrant  
+Medium YG + SI >1	Management Improvement Needed  
+Medium YG + SI < 1	Moderate Climate Constraint  
+Low YG + SI >1	Mainly Climate Constraints  
+Low YG + SI < 1	Minor Management Issue  
 
 *5.0* **Results**  
 *5.1* **Top 2 Highest and Lower Actual Yield Across Year**  
@@ -92,7 +104,7 @@ Regions with **low yield gap** show limited opportunity for further yield improv
 
 ![Agric_Investment_Data_Analysis](Summary.png)  
 
-*8.0* **Conclusion**
+*8.0* **Conclusion**  
 The study demonstrate that agricultural productivity is influenced by both climate condition and management practices. By combining yield gap analysis with climate stress index, the analysis identify not only where productivity is low but also the underlying constraint affecting production.
 
 The result shows that while both factors contribute to yield limitations, **management-related constraints present the most immediate and cost-effective opportunities for productivity improvement**. Regions with **high yield gaps and low climate stress** offers particularly **strong investment opportunities**, as improvements in agronomic practices, input access, and farm management can rapidly increase productivity. 
